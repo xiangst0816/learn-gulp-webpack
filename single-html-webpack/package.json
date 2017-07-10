@@ -1,0 +1,55 @@
+{
+  "name": "AppDownloadPage",
+  "version": "1.0.1",
+  "description": "App下载页面",
+  "private": false,
+  "scripts": {
+    "dev": "node node_modules/.bin/webpack-dev-server --config ./build/webpack.dev.conf.js",
+    "build": "node build/build.js"
+  },
+  "devDependencies": {
+    "node-sass": "^3.13.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "browser-sync": "^2.2.1",
+    "chalk": "^2.0.1",
+    "css-loader": "^0.28.4",
+    "express": "^4.15.3",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "favicons-webpack-plugin": "^0.0.7",
+    "file-loader": "^0.11.2",
+    "html-webpack-harddisk-plugin": "^0.1.0",
+    "html-webpack-inline-source-plugin": "^0.0.9",
+    "html-webpack-plugin": "^2.29.0",
+    "image-min": "^0.3.2",
+    "imagemin-webpack-plugin": "^1.5.0-beta.0",
+    "merge-stream": "^1.0.1",
+    "opn": "^5.1.0",
+    "ora": "^1.3.0",
+    "postcss-cssnext": "^2.11.0",
+    "postcss-import": "^10.0.0",
+    "postcss-loader": "^2.0.6",
+    "rm": "^0.1.8",
+    "sass-loader": "^6.0.6",
+    "semver": "^5.3.0",
+    "style-loader": "^0.18.2",
+    "sugarss": "^1.0.0",
+    "uglify-js": "^3.0.23",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.0.0",
+    "webpack-dev-middleware": "^1.11.0",
+    "webpack-dev-server": "^2.5.0",
+    "webpack-hot-middleware": "^2.18.1"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "webpack-merge": "^4.1.0"
+  }
+}
